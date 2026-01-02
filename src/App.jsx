@@ -62,12 +62,12 @@ const App = () => {
           {task.map(function(elem,idx){
 
             return <div key={idx} 
-            className='h-52 w-40 rounded-2xl bg-white text-black p-5 flex flex-col gap-5 items-center bg-[url("https://e7.pngegg.com/pngimages/825/103/png-clipart-beige-notepad-paper-google-s-book-notes-rectangle-music-note.png")] object-cover bg-no-repeat bg-center'>
+            className='h-52 w-40 rounded-2xl bg-white text-black p-5 flex flex-col gap-5 items-center bg-[url("/note.png")] bg-cover  bg-no-repeat bg-center'>
                   <h3 className='text-2xl font-bold text-black'>
                   {elem.title} 
                 
                   </h3>
-                  <p className='text-xs text-gray-800'>{elem.details}</p>
+                  <p className='text-sm text-gray-800 capitalize'>{elem.details}</p>
               </div>
           })}
        
