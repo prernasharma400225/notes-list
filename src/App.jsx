@@ -24,7 +24,7 @@ const App = () => {
     <div className='h-screen bg-gray-200 p-2 gap-2 justify-between  text-white lg:flex w-full'>
       <form onSubmit={(e)=>{
         submitHandler(e)
-      }} className='lg:w-1/2 w-full flex items-center justify-between gap-9 rounded-xl flex-col  bg-black  p-10 '>
+      }} className='lg:w-1/2 w-full flex items-center justify-between gap-5 rounded-xl flex-col  bg-black  p-10 '>
         
         <div className='flex flex-col gap-4 items-start w-full'>
 
